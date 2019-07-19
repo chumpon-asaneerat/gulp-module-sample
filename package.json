@@ -1,0 +1,19 @@
+{
+  "name": "gulp-module-sample",
+  "version": "1.0.0",
+  "description": "Gulp module sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chumpon-asaneerat/gulp-module-sample.git"
+  },
+  "author": "Chumpon Asaneerat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chumpon-asaneerat/gulp-module-sample/issues"
+  },
+  "homepage": "https://github.com/chumpon-asaneerat/gulp-module-sample#readme"
+}
