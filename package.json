@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chumpon-asaneerat/gulp-module-sample/issues"
   },
-  "homepage": "https://github.com/chumpon-asaneerat/gulp-module-sample#readme"
+  "homepage": "https://github.com/chumpon-asaneerat/gulp-module-sample#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
