@@ -1,3 +1,5 @@
+const { series, parallel } = require('gulp');
+
 const defaultTask = (cb) => {
     console.log('in default task.');
     cb();
@@ -19,6 +21,8 @@ module.exports.default = exports.default = defaultTask;
 module.exports.other = exports.other = otherTask;
 // define another task.
 module.exports.another = exports.another = anotherTask;
+// define series of tasks.
+module.exports.seqtasks = exports.seqtasks = series(anotherTask, otherTask, defaultTask);
 
 // To run
 //
